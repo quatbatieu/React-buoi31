@@ -1,0 +1,41 @@
+.container {
+  background: linear-gradient(#ffe1bc, #f3c6f1);
+  height: 100vh;
+  max-width: 1280px;
+}
+.container .rows {
+  display: flex;
+}
+.container .rows .left {
+  width: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+}
+.container .rows .left .imgbg{
+  width: 65%;
+}
+.container .rows .left .imgs {
+  position: absolute;
+  top: 145px;
+  left: 100px;
+}
+.container .rows .left .imgs img{
+  width: 100%;
+  height: 122px;
+}
+.container .rows .left .text{
+  background-color: aquamarine;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 65%;
+}
+.container .rows .left .text .textes{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
